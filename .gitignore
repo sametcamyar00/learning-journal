@@ -1,0 +1,4 @@
+# compiled files (derlenmiş dosyalar)
+*.o
+a.out
+c/hello
