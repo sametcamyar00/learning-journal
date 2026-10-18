@@ -138,7 +138,7 @@
 
 ## Exercise 4
 
-- Output: 3.33
+- Output: 3.00
 
 ## Exercise 5
 
@@ -171,8 +171,9 @@
 | 2 | 3 |
 | 3 | 7 |
 | 4 | 12 |
+| 5 | 12 |
 
-- Output: 4 12
+- Output: 5 12
 
 ## Exercise 8
 
@@ -204,9 +205,123 @@
 ## Exercise 10
 
 | n | sum |
+| --- | --- |
 | 1234 | 0 |
 | 123 | 4 |
 | 12 | 7 |
 | 1 | 9 |
+| 0 | 10 | 
 
-- Output: 9 1
+- Output: 10 0
+
+
+
+# Session 3
+
+## Exercise 1
+
+| condition | i |
+| --- | --- |
+| true | 0 |
+| true | 1 |
+| true | 2 |
+| false | 2 |
+
+- Output: 2
+
+## Exercise 2
+
+| condition | i_ilk | i_son |
+| --- | --- | --- |
+| - | 10 | - |
+| true | 10 | 6 |
+| true | 6 | 2 |
+| true | 2 | -2 |
+| false | -2 | -2 |
+
+- Output: -2
+
+## Exercise 3
+
+| condition | i_ilk | i_son | count |
+| --- | --- | --- | --- |
+| - | - | - | 0 |
+| true | 1 | 2 | 1 |
+| true | 2 | 4 | 2 |
+| true | 4 | 8 | 3 |
+| true | 8 | 16 | 4 |
+| false | 16 | 16 | 4 |
+
+- Output: 4
+
+## Exercise 4
+
+- Output: 3.0 3.5
+
+## Exercise 5
+
+| a | b | r | q |
+| --- | --- | --- | --- |
+| 5 | 2 | - | - |
+| 5.0 | 2 | 2.5 | 2 |
+
+- Output: 2.50 2
+
+## Exercise 6
+
+| condition | x_ilk | x_son |
+| --- | --- | --- |
+| - | 1 | - |
+| true | 1 | 3 |
+| true | 3 | 9 |
+| true | 9 | 27 |
+false | 27 | 27 |
+
+- Output: 27
+
+## Exercise 7
+
+| condition | i_ilk | i_son | output |
+| --- | --- | --- | --- |
+| - | 0 | - | - |
+| true | 0 | 1 | 1 |
+| true | 1 | 2 | 1 2 |
+| true | 2 | 3 | 1 2 3 |
+| false | 3 | 3 | 1 2 3 \| 3 |
+
+- Output: 1 2 3 | 3
+
+## Exercise 8
+
+| condition | i_ilk | i_son | sum |
+| --- | --- | --- | --- |
+| - | - | - | 0 |
+| true | 1 | 4 | 1 |
+| true | 4 | 7 | 5 |
+| true | 7 | 10 | 12 |
+| true | 10 | 13 | 22 |
+
+- Output: 22 13
+
+## Exercise 9
+
+| condition | n_ilk | f | n_son |
+| --- | --- | --- | --- |
+| - | 5 | 1 | - |
+| true | 5 | 5 | 4 |
+| true | 4 | 20 | 3 |
+| true | 3 | 60 | 2 |
+| true | 2 | 120 | 1 |
+| false | 1 | 120 | 1 |
+
+- Output: 120 1
+
+- Bu döngü n! işlemini hesaplar.
+
+## Exercise 10
+
+| a_ilk | a_son | b |
+| --- | --- | --- |
+| 10 | 8 | 2 |
+
+- Output: 8 2 10
