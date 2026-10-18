@@ -8,6 +8,7 @@ I want to improve myself in the embedded systems.
 2. Before running code, I predict its output.
 3. When I get stuck, I try for 25 minutes, then I look for a hint.
 4. Every day I commit and write 3-5 sentences in notes/til.md.
+5. On Sundays make weekly review.
 
 ## Structure
 - c/ - C exercises
